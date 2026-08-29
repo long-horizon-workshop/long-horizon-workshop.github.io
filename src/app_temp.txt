@@ -1,0 +1,69 @@
+<div className="space-y-12">
+            {/* Speaker 1: Dr. Alexander Schmitz */}
+            <div className="flex flex-col md:flex-row gap-8 items-start">
+              <div className="w-32 h-32 flex-shrink-0 rounded-xl bg-slate-100 overflow-hidden shadow-sm">
+                <img src={alexanderSchmitz} alt="Dr. Alexander Schmitz" className="w-full h-full object-cover" />
+              </div>
+              <div className="flex-grow">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="text-xl font-bold text-slate-900">Dr. Alexander Schmitz</h3>
+                    <p className="text-slate-600 font-medium">XELA Robotics / Waseda University</p>
+                  </div>
+                  <a href='https://www.linkedin.com/in/schmitz-alexander/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
+                </div>
+                <div className="mt-4">
+                  <h4 className="font-bold text-slate-800 italic text-lg">"Tactile Sensing for Adaptive Dexterous Manipulation"</h4>
+                  <p className="mt-2 text-slate-700 leading-relaxed">
+                    In this talk, we present how tactile sensing enables robust and adaptive dexterous manipulation in real-world environments. Fine manipulation tasks—such as in-hand reorientation, precision grasping, and deformable object handling—require continuous feedback at the point of contact. Vision alone is insufficient to capture micro-contact dynamics, slip events, and force distribution.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Speaker 2: Zhengtong Xu */}
+            <div className="flex flex-col md:flex-row gap-8 items-start">
+              <div className="w-32 h-32 flex-shrink-0 rounded-xl bg-slate-100 overflow-hidden shadow-sm">
+                <img src={zhengtongXu} alt="Zhengtong Xu" className="w-full h-full object-cover" />
+              </div>
+              <div className="flex-grow">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="text-xl font-bold text-slate-900">Zhengtong Xu</h3>
+                    <p className="text-slate-600 font-medium">Purdue University</p>
+                  </div>
+                  <a href='https://www.linkedin.com/in/zhengtong-xu-4287b8174/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
+                </div>
+                <div className="mt-4">
+                  <h4 className="font-bold text-slate-800 italic text-lg">"Multimodal Contact Grounding for Robot Dexterity"</h4>
+                  <p className="mt-2 text-slate-700 leading-relaxed">
+                    In this talk, I will present our recent works on leveraging vision and touch for robot perception and policy learning. Beyond vision and robot proprioception, we treat contact as a first-class state to describe and model the evolution of dexterous contact-rich manipulation. I will share practical takeaways and insights on contact modeling, and its impact on policy learning.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            {/* Speaker 6: Quanting Xie */}
+            <div className="flex flex-col md:flex-row gap-8 items-start">
+              <div className="w-32 h-32 flex-shrink-0 rounded-xl bg-slate-100 overflow-hidden shadow-sm">
+                <img src={placeHolder} alt="Quanting Xie" className="w-full h-full object-cover" />
+              </div>
+              <div className="flex-grow">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="text-xl font-bold text-slate-900">Quanting Xie</h3>
+                    <p className="text-slate-600 font-medium">Origami Robotics / Carnegie Mellon University</p>
+                  </div>
+                  <a href='https://www.linkedin.com/in/quanting-xie/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
+                </div>
+                <div className="mt-4">
+                  <h4 className="font-bold text-slate-800 italic text-lg">TBA</h4>
+                  <p className="mt-2 text-slate-700 leading-relaxed">
+                    TBA
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
