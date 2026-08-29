@@ -1,6 +1,6 @@
-# Multimodal Representation Learning for Dexterous Manipulation Workshop
+# Long-Horizon Workshop Website
 
-This repository contains the website for the ICML 2026 Workshop on Multimodal Representation Learning for Dexterous Manipulation.
+This repository contains the website for the ICRA 2027 Long-Horizon Workshop
 
 ## Getting Started
 
