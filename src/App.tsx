@@ -50,7 +50,7 @@ const App: React.FC = () => {
             1st Long-Horizon Workshop
           </h1>
           <p className="text-xl text-slate-200 italic mb-8 max-w-3xl mx-auto">
-            (long-horizon, planning, decision and control)
+            (humanoid long-horizon, planning, decision and control)
           </p>
           <p className="text-xl text-slate-200 italic mb-8 max-w-3xl mx-auto">
           </p>

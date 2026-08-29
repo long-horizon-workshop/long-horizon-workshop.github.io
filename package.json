@@ -1,8 +1,8 @@
 {
-  "name": "dexterous-workshop.github.io",
+  "name": "long-horizon-workshop.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dexterous-workshop.github.io",
+  "homepage": "https://long-horizon-workshop.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
