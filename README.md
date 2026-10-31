@@ -1,6 +1,6 @@
-# Long-Horizon Workshop Website
+# Workshop Website
 
-This repository contains the website for the ICRA 2027 Long-Horizon Workshop
+This repository contains the website for the ICRA 2027 1st Humanoid Long-Horizon Planning Workshop
 
 ## Getting Started
 

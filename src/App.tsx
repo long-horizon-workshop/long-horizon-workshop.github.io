@@ -8,10 +8,13 @@ import alexanderSchmitz from './assets/alexanderschmitz.jpeg';
 import yukiNoguchi from './assets/yukinoguchi.png';
 import sharanNayak from './assets/sharannayak.png';
 import seonilSon from './assets/seonilson.png';
-
+import martaLagomarsino from './assets/martalagomarsino.png';
+import angelAyala from './assets/angelayala.png';
 import changjooNam from './assets/changjoonam.png';
 import shinYounghak from './assets/shinyounghak.png';
 import christinaPiazza from './assets/christinapiazza.png';
+import nikashBhardwaj from './assets/nikashbhardwaj.png';
+import worldMap from './assets/world-map.png';
 // import jaeinKim from './assets/jaeinKim.jpeg';
 // import placeHolder from './assets/placeholder.jpg';
 
@@ -47,7 +50,7 @@ const App: React.FC = () => {
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <p className="text-blue-400 font-bold uppercase tracking-wider mb-2">2027 ICRA Workshop | May 24–28, Coex, South Korea</p>
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight drop-shadow-lg">
-            1st Long-Horizon Workshop
+            1st Humanoid Long-Horizon Planning Workshop
           </h1>
           <p className="text-xl text-slate-200 italic mb-8 max-w-3xl mx-auto">
             (humanoid long-horizon, planning, decision and control)
@@ -138,7 +141,7 @@ const App: React.FC = () => {
 
         {/* Important Information */}
         <section>
-          <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4">Important Information</h2>
+          <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4">Tentative Call for Contributions Schedule</h2>
           <div className="text-slate-700 space-y-4 leading-relaxed mb-6">
             <p>The final dates and author instructions will be announced soon</p>
           </div>
@@ -146,22 +149,152 @@ const App: React.FC = () => {
             <tbody className="bg-white divide-y divide-slate-200 text-sm">
               <tr className="bg-slate-50">
                 <td className="px-6 py-3 font-medium text-slate-900">Paper Submissions Open</td>
-                <td className="px-6 py-3 font-medium text-slate-900">TBD</td>
+                <td className="px-6 py-3 font-medium text-slate-900">January 31, 2027</td>
               </tr>
               <tr className="bg-slate-50">
                 <td className="px-6 py-3 font-medium text-slate-900">Submission Deadline</td>
-                <td className="px-6 py-3 font-medium text-slate-900">TBD</td>
+                <td className="px-6 py-3 font-medium text-slate-900">March 15, 2027</td>
               </tr>
               <tr className="bg-slate-50">
                 <td className="px-6 py-3 font-medium text-slate-900">Acceptance Notification</td>
-                <td className="px-6 py-3 font-medium text-slate-900">TBD</td>
+                <td className="px-6 py-3 font-medium text-slate-900">March 31, 2027</td>
               </tr>
               <tr className="bg-slate-50">
                 <td className="px-6 py-3 font-medium text-slate-900">Camera Ready Deadline</td>
-                <td className="px-6 py-3 font-medium text-slate-900">TBD</td>
+                <td className="px-6 py-3 font-medium text-slate-900">April 15, 2027</td>
               </tr>
             </tbody>
           </table>
+        </section>
+
+
+        <section>
+          <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4">
+            Tentative Workshop Schedule
+          </h2>
+
+          <p className="text-slate-700 mb-6 leading-relaxed">
+            The following schedule is tentative and subject to change.
+            The final program and speaker details will be announced soon.
+          </p>
+
+          <div className="overflow-x-auto rounded-lg border border-slate-200">
+            <table className="min-w-full divide-y divide-slate-200 text-sm">
+              <thead className="bg-slate-100">
+                <tr>
+                  <th className="px-6 py-3 text-left font-semibold text-slate-900">
+                    Time
+                  </th>
+                  <th className="px-6 py-3 text-left font-semibold text-slate-900">
+                    Activity
+                  </th>
+                  <th className="px-6 py-3 text-left font-semibold text-slate-900">
+                    Description
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody className="bg-white divide-y divide-slate-200 text-slate-700">
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap">8:30 – 9:30</td>
+                  <td className="px-6 py-4 font-medium">Contributed Talks 1–3</td>
+                  <td className="px-6 py-4">
+                    15-minute presentations followed by 5-minute Q&A sessions
+                  </td>
+                </tr>
+
+                <tr className="bg-slate-50">
+                  <td className="px-6 py-4 whitespace-nowrap">9:30 – 10:30</td>
+                  <td className="px-6 py-4 font-medium">Invited Speakers 1–3</td>
+                  <td className="px-6 py-4">
+                    Three invited talks, 20 minutes each
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap">10:30 – 11:00</td>
+                  <td className="px-6 py-4 font-medium">Panel Discussion</td>
+                  <td className="px-6 py-4">
+                    Discussion and Q&A with invited speakers
+                  </td>
+                </tr>
+
+                <tr className="bg-slate-50">
+                  <td className="px-6 py-4 whitespace-nowrap">11:00 – 12:20</td>
+                  <td className="px-6 py-4 font-medium">Contributed Talks 4–7</td>
+                  <td className="px-6 py-4">
+                    15-minute presentations followed by 5-minute Q&A sessions
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap">12:20 – 14:00</td>
+                  <td className="px-6 py-4 font-medium">Poster & Demo Session</td>
+                  <td className="px-6 py-4">
+                    Research posters and live demonstrations
+                  </td>
+                </tr>
+
+                <tr className="bg-slate-50">
+                  <td className="px-6 py-4 whitespace-nowrap">12:30 – 14:00</td>
+                  <td className="px-6 py-4 font-medium">Lunch & Coffee Break</td>
+                  <td className="px-6 py-4">
+                    Coffee and snacks provided courtesy of workshop sponsors
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap">14:00 – 15:00</td>
+                  <td className="px-6 py-4 font-medium">Invited Speakers 4–6</td>
+                  <td className="px-6 py-4">
+                    Three invited talks, 20 minutes each
+                  </td>
+                </tr>
+
+                <tr className="bg-slate-50">
+                  <td className="px-6 py-4 whitespace-nowrap">15:00 – 15:30</td>
+                  <td className="px-6 py-4 font-medium">
+                    Career & Entrepreneurship Panel
+                  </td>
+                  <td className="px-6 py-4">
+                    Panel discussion and Q&A on career development and entrepreneurship
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap">15:30 – 16:30</td>
+                  <td className="px-6 py-4 font-medium">Contributed Talks 8–10</td>
+                  <td className="px-6 py-4">
+                    15-minute presentations followed by 5-minute Q&A sessions
+                  </td>
+                </tr>
+
+                <tr className="bg-slate-50">
+                  <td className="px-6 py-4 whitespace-nowrap">16:30 – 17:10</td>
+                  <td className="px-6 py-4 font-medium">Invited Speakers 7–8</td>
+                  <td className="px-6 py-4">
+                    15-minute presentations followed by 5-minute Q&A sessions
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="px-6 py-4 whitespace-nowrap">17:10 – 17:50</td>
+                  <td className="px-6 py-4 font-medium">Contributed Talks 11–12</td>
+                  <td className="px-6 py-4">
+                    15-minute presentations followed by 5-minute Q&A sessions
+                  </td>
+                </tr>
+
+                <tr className="bg-slate-50">
+                  <td className="px-6 py-4 whitespace-nowrap">17:50 – 18:00</td>
+                  <td className="px-6 py-4 font-medium">Awards & Closing Remarks</td>
+                  <td className="px-6 py-4">
+                    Best Student Paper and Best Presentation awards, followed by closing remarks
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
 
 
@@ -272,57 +405,97 @@ const App: React.FC = () => {
         {/*Organizers */}
         <section>
           <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-8">Organizers</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-12 gap-x-8">
+          <div className="overflow-x-auto pb-3 -mx-2 px-2">
+            <div className="grid min-w-[840px] grid-cols-7 gap-3">
 
             <div className="text-center group">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
                 <img src={pavelNiImg} alt="Pavel Ni" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-semibold text-slate-900 leading-tight">Pavel Ni, Ph.D.</h3>
-              <p className="text-sm text-slate-800 mt-1">Gwangju Institute of Science and Technology</p>
-              <p className="text-sm text-slate-500 mt-1">NextMetal</p>
+              <p className="text-xs text-slate-800 mt-1">Gwangju Institute of Science and Technology</p>
               <a href='https://www.linkedin.com/in/pavel-ni/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
             </div>
 
             <div className="text-center group">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
+                <img src={martaLagomarsino} alt="Marta Lagomarsino" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="font-semibold text-slate-900 leading-tight">Marta Lagomarsino, Ph.D.</h3>
+              <p className="text-xs text-slate-800 mt-1">Istituto Italiano Tecnologia (IIT)</p>
+              <a href='https://www.linkedin.com/in/marta-lagomarsino-5970b9191/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
+                <img src={angelAyala} alt="Angel Ayala Maldonado" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="font-semibold text-slate-900 leading-tight">Angel Ayala Maldonado, Ph.D.</h3>
+              <p className="text-xs text-slate-800 mt-1">Universidade Federal do Rio Grande</p>
+              <a href='https://www.linkedin.com/in/angel-ayala-maldonado/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
+            </div>
+
+            <div className="text-center group">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
                 <img src={zhengtongXu} alt="Zhengtong Xu" className="w-full h-full object-cover" />
               </div>
-              <h3 className="font-semibold text-slate-900 leading-tight">Zhengtong Xu</h3>
-              <p className="text-sm text-slate-800 mt-1">Purdue University</p>
-              <p className="text-sm text-slate-500 mt-1"> - </p>
+              <h3 className="font-semibold text-slate-900 leading-tight">Zhengtong Xu, Ph.D.</h3>
+              <p className="text-xs text-slate-800 mt-1">Purdue University</p>
               <a href='https://www.linkedin.com/in/zhengtong-xu-4287b8174/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
             </div>
 
             <div className="text-center group">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
-                <img src={seungchanLee} alt="Seungchan Lee" className="w-full h-full object-cover" />
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
+                <img src={nikashBhardwaj} alt="Nikash Bhardwaj" className="w-full h-full object-cover" />
               </div>
-              <h3 className="font-semibold text-slate-900 leading-tight">Seungchan Lee, Ph.D.</h3>
-              <p className="text-sm text-slate-800 mt-1">Korea Institute of Machinery & Materials</p>
-              <p className="text-sm text-slate-500 mt-1"> - </p>
-              <a href='https://www.linkedin.com/in/lee-seungchan-9826bba7' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
+              <h3 className="font-semibold text-slate-900 leading-tight">Nikash Bhardwaj, M.S.</h3>
+              <p className="text-xs text-slate-800 mt-1">Carnegie Mellon University</p>
+              <a href='https://www.linkedin.com/in/nikash-bhardwaj/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
             </div>
 
             <div className="text-center group">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
                 <img src={jehyukJang} alt="Jehyuk Jang" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-semibold text-slate-800 leading-tight">Jehyuk Jang, Ph.D.</h3>
-              <p className="text-sm text-slate-800 mt-1">Tokamak Network</p>
-              <p className="text-sm text-slate-500 mt-1"> . </p>
+              <p className="text-xs text-slate-800 mt-1">Tokamak Network</p>
               <a href='https://www.linkedin.com/in/jehyuk-jang/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
             </div>
 
             <div className="text-center group">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
                 <img src={jusungKang} alt="JuSung Kang" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-semibold text-slate-800 leading-tight">JuSung Kang, Ph.D.</h3>
-              <p className="text-sm text-slate-800 mt-1">ETRI</p>
-              <p className="text-sm text-slate-500 mt-1"> . </p>
+              <p className="text-xs text-slate-800 mt-1">ETRI</p>
               <a href='https://www.linkedin.com/in/jusung-kang-41343467/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
             </div>
+            </div>
+          </div>
+
+          <div className="relative mt-2 hidden h-[360px] min-[840px]:block" aria-hidden="true">
+            <img src={worldMap} alt="World map" className="relative z-0 mx-auto h-auto w-full max-w-xl pt-20" />
+            <svg viewBox="0 0 1000 360" preserveAspectRatio="none" className="pointer-events-none absolute inset-0 z-10 h-full w-full" fill="none" stroke="black" strokeWidth="2" strokeOpacity="0.3" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke">
+              <path d="M71.5 0V48H725V255" />
+              <path d="M214.5 0V68H545V135" />
+              <path d="M357.5 0V88H378V254" />
+              <path d="M500.5 0V108H358.5V155" />
+              <path d="M643.5 0V128H320V192" />
+              <path d="M786.5 0V148H710V170" />
+              <path d="M929.5 0V168H695V184" />
+              <g fill="black" stroke="white" strokeWidth="2">
+                <circle cx="725" cy="255" r="5" />
+                <circle cx="545" cy="135" r="5" />
+                <circle cx="378" cy="254" r="5" />
+                <circle cx="358.5" cy="155" r="5" />
+                <circle cx="320" cy="192" r="5" />
+                <circle cx="710" cy="170" r="5" />
+                <circle cx="695" cy="184" r="5" />
+              </g>
+            </svg>
+          </div>
+          <div className="mt-8 min-[840px]:hidden">
+            <img src={worldMap} alt="World map" className="mx-auto h-auto w-full max-w-xl" />
           </div>
         </section>
 
@@ -336,7 +509,6 @@ const App: React.FC = () => {
               </div>
               <h3 className="font-semibold text-slate-900 leading-tight">Changjoo Nam, Professor</h3>
               <p className="text-sm text-slate-800 mt-1">Sogang University</p>
-              <p className="text-sm text-slate-500 mt-1">AI Robotics Lab</p>
               <a href='https://sites.google.com/site/changjoonam/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">Website</a>
             </div>
 
@@ -346,7 +518,6 @@ const App: React.FC = () => {
               </div>
               <h3 className="font-semibold text-slate-800 leading-tight">Cristina Piazza, Professor</h3>
               <p className="text-sm text-slate-800 mt-1">Technical University of Munich</p>
-              <p className="text-sm text-slate-500 mt-1"> . </p>
               <a href='https://www.professoren.tum.de/piazza-cristina' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
             </div>
 
@@ -356,11 +527,18 @@ const App: React.FC = () => {
               </div>
               <h3 className="font-semibold text-slate-800 leading-tight">YoungHak Shin, Professor</h3>
               <p className="text-sm text-slate-800 mt-1">Mokpo National University</p>
-              <p className="text-sm text-slate-500 mt-1"> . </p>
               <a href='https://www.linkedin.com/in/younghak-shin-6b2542157/' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
             </div>
 
 
+            <div className="text-center group">
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-slate-300 flex items-center justify-center border-2 border-transparent group-hover:border-blue-400 transition-colors overflow-hidden">
+                <img src={seungchanLee} alt="Seungchan Lee" className="w-full h-full object-cover" />
+              </div>
+              <h3 className="font-semibold text-slate-900 leading-tight">Seungchan Lee, Ph.D.</h3>
+              <p className="text-sm text-slate-800 mt-1">Korea Institute of Machinery & Materials</p>
+              <a href='https://www.linkedin.com/in/lee-seungchan-9826bba7' target='_blank' className="text-blue-600 hover:underline text-sm font-medium">LinkedIn</a>
+            </div>
           </div>
         </section>
 
