@@ -570,7 +570,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="bg-slate-100 border-t border-slate-200 py-8 px-4 text-center text-slate-500 text-sm">
-        &copy; 2027 ICRA Workshop: Multimodal Representation Learning for Dexterous Manipulation
+        &copy; 2027 ICRA Workshop
       </footer>
     </div>
   );
